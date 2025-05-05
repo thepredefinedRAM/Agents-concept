@@ -25,7 +25,7 @@ def query_questdb_restapi(sql_query: str) -> str:
 
 # --- STEP 2: Connect to local LLaMA 3 ---
 llama_3_local = ChatOllama(
-    base_url="http://13.201.0.207:11434",  # Your Ollama Server IP:Port
+    base_url="http://13.201.0.205555:11434",  # Your Ollama Server IP:Port
     model="llama3.1",
     temperature=0.1
 )
