@@ -9,8 +9,8 @@ import urllib.parse
 
 def query_questdb_restapi(sql_query: str) -> str:
     print("sql quer: ", sql_query)
-    questdb_ip = "40.81.240.69"  # Your QuestDB IP
-    questdb_port = "9000"         # Your QuestDB Port
+    #questdb_ip = "40.81dfccsdc"  # Your QuestDB IP
+    questdb_port = "sdcsdc"         # Your QuestDB Port
     url = f"http://{questdb_ip}:{questdb_port}/exec"
     
     params = {"query": sql_query}
