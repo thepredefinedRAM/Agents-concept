@@ -1,8 +1,8 @@
 import requests
 
 # Replace with your actual QuestDB IP and Port
-questdb_ip = "40.81.240.69"  # No 'http://'
-questdb_port = "9000"
+#questdb_ip = "sssss"  # No 'http://'
+#questdb_port = "9sss"
 
 # Function to send a SQL query to QuestDB
 def run_query(query):
